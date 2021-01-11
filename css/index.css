@@ -1,5 +1,60 @@
-body {
-    margin: 0;
-    padding: 0;
+#carouselExampleControls {
+    margin-top: 150px;
+}
+
+#cone img {
+    width: 100%;
+    border-radius: 3px;
+}
+
+#cone {
+    box-shadow: 10px 10px 20px lightslategray;
+    border-radius: 11px;
+    text-align: center !important;
+}
+
+#bone {
+    box-shadow: 10px 10px 20px lightslategray;
+    border-radius: 11px;
+    text-align: center !important;
+}
+
+#aone {
+    box-shadow: 10px 10px 20px lightslategray;
+    border-radius: 11px;
+    text-align: center !important;
+}
+
+.anc {
+    border-radius: 9px;
+}
+
+.last-body {
+    height: 300px;
+    width: 80%;
+    background-color: peachpuff;
+    border-radius: 14px;
+    text-align: center;
+    place-items: center;
+    margin-left: 10%;
+}
+
+.last-body .last-text {
+    margin-top: 130px;
+    padding-top: 50px;
 
 }
+
+.footer1 {
+    text-align: center;
+}
+
+.last-text .in1 {
+    width: 260px;
+    border-radius: 6px;
+}
+
+
+
+/*<input type="search" class="in1" placeholder="search" >
+<input type="submit" class="btn btn-warning px-3 sub1" value="submit">*/

@@ -5,11 +5,203 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="">
     <title>Panda E-commerce Site</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-   <h1> hi responsive site</h1>
+    <header class="container">
+ <section class="nav-section">
+     <nav class="navbar navbar-expand-lg navbar-light bg-light w-100 rounded">
+         <div class="container-fluid" id="one">
+         <a href="#" class="navbar-brand"><img class="img-fluid img-sec" src="images/logo.png"></a>
+         <button type="button" class="btn btn-success navbar-toggler" data-toggle="collapse" data-target="#mynavbar" aria-expanded="true">
+             <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="mynavbar">
+             <ul class="navbar-nav">
+                 <li class="nav-item">
+                     <a href="#" class="nav-link text-secondary">Home</a>
+                 </li>
+                 <li class="nav-item">
+                    <a href="#" class="nav-link text-secondary">Shoes</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-secondary">Backpack</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-secondary">Subscribe</a>
+                </li>
+             </ul>
+         </div>
+        </div>
+     </nav>
+     </section>
+
+ <section class="slide-section1">
+    <div id="carouselExampleControls" class="carousel slide rounded" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+           <div class="row">
+               <div class="col-md-7"></div>
+               <div class="col-md-5">
+                <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
+               </div>
+           </div>
+          </div>
+          <div class="carousel-item">
+           <div class="row">
+               <div class="col-md-7"></div>
+               <div class="col-md-5">
+                <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
+               </div>
+           </div>
+          </div>
+          <div class="carousel-item">
+           <div class="row">
+               <div class="col-md-7"></div>
+               <div class="col-md-5">
+                <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
+               </div>
+           </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
+      </div>
+ </section>
+</header>
+
+<!--main section-->
+
+<main class="container">
+    <div class="container overflow-hidden mt-5 rounded">
+        <div class="row gx-5">
+          <div class="col">
+           <div class="p-3 border bg-warning d-flex align-items-center justify-content-around rounded">
+               <h1 class="text-white">Watch</h1>
+               <img class="img-fluid" src="images/categories/watch.png">
+           </div>
+          </div>
+          <div class="col">
+            <div class="p-3 border bg-success d-flex align-items-center justify-content-around rounded">
+                <h1 class="text-white">Bag</h1>
+                <img class="img-fluid" src="images/categories/bag.png">
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 border bg-danger d-flex align-items-center justify-content-around rounded">
+                <h1 class="text-white">Shoes</h1>
+                <img class="img-fluid" src="images/categories/shoes.png">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--shoe section-->
+      <div class="container-fluid">
+        <div class="row">
+            <h1 class="header mt-5 text-dark">Shoes</h1>
+            <div class="col-lg-4 col-md-3 mt-3">
+      <div class="card justify-content-evenly h-100" id="cone" style="width: 22rem;">
+        <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Supply 350</h5>
+          <p class="card-text text-justify">This is a longer card with supporting text below as a natural lead-in to additional.</p>
+          <h4>$120</h4>
+          <a href="#" class="btn btn-danger anc px-2">Buy Now&nbsp;>></a>
+        </div>
+      </div>
+      </div>
+      <div class="col-lg-4 col-md-3 mt-3">
+        <div class="card justify-content-evenly h-100" id="bone" style="width: 22rem;">
+          <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Nike 360</h5>
+            <p class="card-text text-justify">This is a longer card with supporting text below as a natural lead-in to additional.</p>
+            <h4>$320</h4>
+            <a href="#" class="btn btn-danger anc px-2">Buy Now&nbsp;>></a>
+          </div>
+        </div>
+        </div>
+        <div class="col-lg-4 col-md-3 mt-3">
+            <div class="card justify-content-evenly h-100" id="aone" style="width: 22rem;">
+              <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Red Airmax</h5>
+                <p class="card-text text-justify">This is a longer card with supporting text below as a natural lead-in to additional.</p>
+                <h4>$350</h4>
+                <a href="#" class="btn btn-danger anc px-2">Buy Now&nbsp;>></a>
+              </div>
+            </div>
+            </div>
+    </div>
+      </div>
+
+<!--Backpack section-->
+
+<div class="container-fluid">
+    <div class="row">
+        <h1 class="header mt-5 text-dark">Backpack</h1>
+        <div class="col-lg-4 col-md-3 mt-2 justify-content-evenly">
+  <div class="card justify-content-evenly h-100" id="cone" style="width: 22rem;">
+    <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Red Laltu Bag</h5>
+       <h4>$120</h4>
+      <p class="card-text text-justify">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+     
+      <a href="#" class="btn btn-danger anc px-2">Buy Now&nbsp;>></a>
+    </div>
+  </div>
+  </div>
+  <div class="col-lg-4 col-md-3 mt-3">
+    <div class="card justify-content-evenly h-100" id="bone" style="width: 22rem;">
+      <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Blue Niltu Bag</h5>
+        <h4>$320</h4>
+        <p class="card-text text-justify">This card has supporting text below as a natural lead-in to additional content.</p>
+        
+        <a href="#" class="btn btn-danger anc px-2">Buy Now&nbsp;>></a>
+      </div>
+    </div>
+    </div>
+    <div class="col-lg-4 col-md-3 mt-3">
+        <div class="card justify-content-evenly h-100" id="aone" style="width: 22rem;">
+          <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Black Kaltu Bag</h5>
+             <h4>$169</h4>
+            <p class="card-text text-justify">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+           
+            <a href="#" class="btn btn-danger anc px-2">Buy Now&nbsp;>></a>
+          </div>
+        </div>
+        </div>
+</div>
+  </div>
+
+</main>
+<footer class="last section">
+    <div class="last-body mt-5">
+        <div class="last-text">
+        <h1 class="header">LET'S STAY IN TOUCH</h1>
+        <p class="text-center pt-3">Get updates on sales, specials and more</p>
+        <input type="search" class="in1 mr-2" placeholder="search" >
+<input type="submit" class="btn btn-warning ml-2 px-3 sub1" value="submit">
+    </div>
+   
+</div>
+<h6 class="footer1 mt-5">©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</h6>
+</footer> 
+
+ 
 
 
 
@@ -31,9 +223,6 @@
 
 
 
-
-
-    <script src="js/jquery-3.5.1.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 </html>
